@@ -1,0 +1,4 @@
+deploy:
+  override:
+    - echo $PATH
+    - /usr/local/bundle/bin/kubernetes-deploy --help
